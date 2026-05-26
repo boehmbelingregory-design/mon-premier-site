@@ -2,7 +2,7 @@
 body {
     background-color: #f0f2f5; /* Un gris plus doux */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #333333; /* Couleur du texte en général */
+    color: #1c622d; /* Couleur du texte en général */
     max-width: 800px; /* On le site de s'étaler trop largement */
     margin: 0 auto; /* On centre tout le bloc du site au milieu de l'écran */
     padding: 20px; /* On laisse un peu d'espace sur les côtés */
@@ -10,7 +10,7 @@ body {
 
 /* Le titre principal */
 h1 {
-    color: #0d3b77; /* Un joli bleu moderne */
+    color: #47154d; /* Un joli bleu moderne */
     text-align: center;
     font-size: 2.5rem; /* On grossit le titre */
 }

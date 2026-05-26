@@ -1,0 +1,25 @@
+{
+  "name": "mon-premier-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "browser-sync start --server --files '*.html, *.css'np"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boehmbelingregory-design/mon-premier-site.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/boehmbelingregory-design/mon-premier-site/issues"
+  },
+  "homepage": "https://github.com/boehmbelingregory-design/mon-premier-site#readme",
+  "devDependencies": {
+    "browser-sync": "^3.0.4"
+  }
+}
