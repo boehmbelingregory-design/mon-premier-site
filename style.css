@@ -44,3 +44,15 @@ img {
     color: #e74c3c; /* Un joli rouge */
     font-style: italic; /* Mettre le texte en italique */
 }
+
+/* Si l'écran fait MAXIMUM 600px de large(taille d'un smartphone) */
+@media (max-width: 600px) {
+    body {
+        background-color: #ffffff; /* Le fond devient tout blanc sur mobile */
+        padding: 10px; /* On reduit les espaces */
+    }
+
+    h1 {
+        font-size: 1.8rem; /* On rétrécit le titre pour qu'il rentre sur l'écran */
+    }
+}
