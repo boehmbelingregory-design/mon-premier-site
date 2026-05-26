@@ -1,0 +1,46 @@
+/* Le corps de la page */
+body {
+    background-color: #f0f2f5; /* Un gris plus doux */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333333; /* Couleur du texte en général */
+    max-width: 800px; /* On le site de s'étaler trop largement */
+    margin: 0 auto; /* On centre tout le bloc du site au milieu de l'écran */
+    padding: 20px; /* On laisse un peu d'espace sur les côtés */
+}
+
+/* Le titre principal */
+h1 {
+    color: #1877f2; /* Un joli bleu moderne */
+    text-align: center;
+    font-size: 2.5rem; /* On grossit le titre */
+}
+
+/* Les sous-titres */
+h2 {
+    color: #333;
+    border-bottom: 2px solid #1877f2; /* Une jolie ligne sous les sous-titres */
+    padding-bottom: 5px;
+}
+
+/* L'image */
+img {
+    display: block;
+    margin: 20px auto; /* On centre l'image */
+    border-radius: 8px; /* On arrondit les angles de l'image */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* On ajoute une ombre discrète */
+    max-width: 100%; /* L'image s'adaptera si l'écran est petit */
+}
+
+/* Cibler une classe se fait avec un point. */
+.texte-succes {
+    color: #2ecc71; /* Un joli vert */
+    font-weight: bold; /* Mettre le texte en gras */
+    background-color: #e8f8f0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.texte-important {
+    color: #e74c3c; /* Un joli rouge */
+    font-style: italic; /* Mettre le texte en italique */
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Premier Site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Bienvenue sur mon tout premier site !</h1>
+    <p>Je suis entrain d'apprendre les bases solides du développement web.</p>
+    
+    <!-- 1. Un sous-titre -->
+     <h2>Mes objectifs pour cette formation</h2>
+     <p>Je veux maîtriser le <em>HTML</em>, le <em>CSS</em> et le <em>JavaScript</em>.</p>
+
+     <!-- 2. Un lien hypertexte -->
+      <p>Voici un lien vers <a href="https://www.google.com" target="_blank">Google</a> pour faire mes recherches.</p>
+
+      <!--3. Une image -->
+      <h2>Une image depuis le web</h2>
+      <img src="images/photo.jpg" alt="une image aléatoire jolie">
+
+      <h2>Mes messages</h2>
+      <p class="texte-succes">Félicitation, cette étape est réussie !</p>
+      <p class="texte-important">Attention, ne jamais oublier de sauvegarder son code.</p>
+
+      <h2>Un peu de JavaScript</h2>
+      <button id="mon-bouton">Clique ici pour voir la magie</button>
+
+      <script>
+        // 1. On selectionne le bouton grâce à son "id"
+        const bouton = document.getElementById('mon-bouton');
+
+        // 2. On écoute le "clic" sur ce bouton
+        bouton.addEventListener('click', function() {
+            alert('Bravo ! Tu viens d\'executer ton tout premier script JavaScript ! 🚀');
+        });
+      </script>
+</body>
+</html>
