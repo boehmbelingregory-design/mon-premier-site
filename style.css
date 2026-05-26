@@ -2,7 +2,7 @@
 body {
     background-color: #f0f2f5; /* Un gris plus doux */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #1c622d; /* Couleur du texte en général */
+    color: black; /* Couleur du texte en général */
     max-width: 800px; /* On le site de s'étaler trop largement */
     margin: 0 auto; /* On centre tout le bloc du site au milieu de l'écran */
     padding: 20px; /* On laisse un peu d'espace sur les côtés */
@@ -17,7 +17,7 @@ h1 {
 
 /* Les sous-titres */
 h2 {
-    color: #333;
+    color: #47154d;
     border-bottom: 2px solid #1877f2; /* Une jolie ligne sous les sous-titres */
     padding-bottom: 5px;
 }
